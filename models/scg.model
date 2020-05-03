@@ -1,0 +1,4 @@
+const scgSchema ={
+
+}
+ module.export=scgSchema
