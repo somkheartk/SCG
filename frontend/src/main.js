@@ -5,6 +5,8 @@
   /* components */
   import Page1 from './components/page1'
   import Page2 from './components/page2'
+  import getx from './components/page2'
+  import gety from './components/page2'
   import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
   import 'bootstrap/dist/css/bootstrap.css'
   import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -15,7 +17,10 @@
   const routes = [
 
     { path: '/page1', component: Page1 },
-    { path: '/page2', component: Page2 }
+    { path: '/page2', component: Page2 },
+    { path: '/getx', component: getx },
+    { path: '/gety', component: gety }
+    
   ]
   const router = new VueRouter({ routes })
   /* eslint-disable no-new */
